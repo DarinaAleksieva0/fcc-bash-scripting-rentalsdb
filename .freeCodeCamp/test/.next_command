@@ -105,3 +105,5 @@ chmod +x bike-shop.sh
 echo "$(echo ' M e ' | sed 's/ //')"
 echo "$(echo ' M e ' | sed 's/ //')."
 echo "$(echo ' M e ' | sed 's/ //g')."
+echo "$(echo ' M e ' | sed 's^/ //g')."
+echo "$(echo ' M e ' | sed 's/^ //g')."
